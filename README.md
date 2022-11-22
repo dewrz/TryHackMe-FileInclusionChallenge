@@ -47,5 +47,19 @@ And that worked out and revealed the flag.<br>
 <br>
 <b>Challenge 3:</b><br>
 <br>
-
+Just like the first two challenges, they want us to retrieve the flag from /etc/flag3. I tried a path traversal, but it appears the code is filtered.<br>
+<br>
+<a href="https://imgur.com/CIAfeLc"><img src="https://i.imgur.com/CIAfeLc.jpg" title="source: imgur.com" /></a><br>
+<br>
+I tried to go with this format: ....//....//....//....//, but it was still receiving an error. So lets pull up the CLI and try to send a request via curl.<br>
+<br>
+<a href="https://imgur.com/o91WF4k"><img src="https://i.imgur.com/o91WF4k.jpg" title="source: imgur.com" /></a><br>
+<br>
+After sending that request we reveal the flag.<br>
+<br>
+<a href="https://imgur.com/ysSfUmh"><img src="https://i.imgur.com/ysSfUmh.jpg" title="source: imgur.com" /></a><br>
+<br>
+<br>
+<b>Challenge 4:</b><br>
+<br>
 
