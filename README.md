@@ -62,4 +62,22 @@ After sending that request we reveal the flag.<br>
 <br>
 <b>Challenge 4:</b><br>
 <br>
+The final challnege is focused on remote file inclusion, so we'll need to spin up a server and include our url with a file attachment to the websites url. First we create the text file.<br>
+<br>
+<a href="https://imgur.com/05JbGGK"><img src="https://i.imgur.com/05JbGGK.jpg" title="source: imgur.com" /></a><br>
+<br>
+Next we spin up a server.<br>
+<br>
+<a href="https://imgur.com/Zs2H6NU"><img src="https://i.imgur.com/Zs2H6NU.jpg" title="source: imgur.com" /></a><br>
+<br>
+In the address bar we append the end of the websites URL with our running server and the attached text file and down below the website reveals the flag.<br>
+<br>
+<a href="https://imgur.com/qeAqIxE"><img src="https://i.imgur.com/qeAqIxE.jpg" title="source: imgur.com" /></a><br>
+<br>
+<b>Questions:</b><br>
+1. Capture Flag1 at /etc/flag1?   Answer:F1x3d-iNpu7-f0rrn <br>
+2. Capture Flag2 at /etc/flag2?   Answer:c00k13_i5_yuMmy1 <br>
+3. Capture Flag3 at /etc/flag3?   Answer:P0st_1s_w0rk1in9 <br>
+4. Gain RCE in Lab #Playground /playground.php with RFI to execute the hostname command. What is the output?   Answer:lfi-vm-thm-f8c5b1a78692 <br>
+
 
